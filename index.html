@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio ZYDANN</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ece9e6, #ffffff);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #4b6cb7, #182848);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .profile-wrapper {
+      display: inline-block;
+      padding: 10px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #4b6cb7, #182848);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .profile-wrapper:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: #4b6cb7;
+      margin-top: 5px;
+    }
+
+    .about p {
+      font-size: 18px;
+    }
+
+    .skills ul {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    .skills li {
+      background: #4b6cb7;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: transform 0.2s ease;
+    }
+
+    .skills li:hover {
+      transform: scale(1.1);
+    }
+
+    .projects .project {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+    .projects .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .projects h3 {
+      margin-bottom: 8px;
+    }
+
+    .contact-info {
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .contact-info p {
+      margin-bottom: 10px;
+    }
+
+    .contact-info a {
+      color: #4b6cb7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #182848;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="profile-wrapper">
+      <img class="profile-img" src="Picsart_25-03-31_22-23-52-120.jpg" alt="Foto ZYDANN" />
+    </div>
+    <h1>ZYDANN</h1>
+    <p>Web Developer | Designer | Content Creator</p>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <h2>Tentang Saya</h2>
+      <p>Yoo Wassup gw ZYDANN, seorang siswa MAN yang baru belajar coding bikin website. Gw masih pemula tapi gw sangat berminat di bidang ini. Pantau gw terus yah!!!</p>
+    </section>
+
+    <section class="skills">
+      <h2>Skill</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Project</h2>
+      <div class="project">
+        <h3>Website Toko Online</h3>
+        <p>Web toko sederhana buat jualan online. Responsive dan mudah digunakan.</p>
+      </div>
+      <div class="project">
+        <h3>Landing Page Event</h3>
+        <p>Landing page interaktif buat promosi event musik. Desain simple dan menarik.</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Kontak</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:farisjidan2008@gmail.com">farisjidan2008@gmail.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/540p_zydann" target="_blank">@540p_zydann</a></p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 ZYDANN. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
